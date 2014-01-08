@@ -2,9 +2,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>登录-学讯通管理系统</title>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="../css/system.css"/>
+    <!--网站小图标-->
+    <link rel="Shortcut Icon" href="../img/favicon.ico" />
+    <link rel="Bookmark" href="../img/favicon.ico" />
 </head>
 <body>
+     <div class="page">
+         <!--头部-->
+         <div class="masthead">
+             <ul class="nav nav-pills pull-right">
+                 <li class="active"><a href="#login">登录</a></li>
+                 <li><a href="#regist">注册</a></li>
+                 <li><a href="#websit">官网</a></li>
+                 <li><a href="#about">关于</a></li>
+                 <li><a href="#contant">联系我们</a></li>
+             </ul>
+             <h3 class="muted">学讯通</h3>
+         </div>
+         <hr/>
+         <!--主体-->
 
+         <div class="article">
+             <div id="show">
+                 <div class="images">
+                     <img src="../img/logo.png"/>
+                     <br/>
+                     <p>可以通过扫描下面的二维码下载移动端</p>
+                     <img src="../img/xxt.png"/>
+
+                 </div>
+             </div>
+             <!--登录区域-->
+             <div id="login">
+                 <fieldset>
+                     <legend>用户登录</legend>
+                     <form id="loginForm" class="form-horizontal">
+
+
+                         <div class="control-group">
+                             <label class="control-label" for="accountInput">账号</label>
+                             <div class="controls">
+                                 <input id="accountInput" type="text" class="" />
+                                 <span class="help-inline">请输入正确的用户名</span>
+                             </div>
+
+                         </div>
+                         <div class="control-group">
+                             <label class="control-label" for="pwdInput">密码</label>
+                             <div class="controls">
+                                 <input id="pwdInput" type="password" class="" />
+                                 <span class="help-inline">请输入正确的密码</span>
+                             </div>
+
+                         </div>
+                         <div class="control-group">
+                             <div class="controls">
+                                 <label ><input type="checkbox">记住账号</label>
+                                 <a class="control-label" href="">忘记密码？</a>
+                             </div>
+                         </div>
+                         <div class="control-group">
+
+                             <div class="controls">
+                                 <input id="resetBtn" type="reset" class="btn btn-warning" value="重置"/>
+                                 <input id="loginBtn" type="button" class="btn btn-info" value="登录"/>
+                             </div>
+                         </div>
+                     </form>
+                 </fieldset>
+             </div>
+         </div>
+         <hr/>
+         <div class="foot text-center">
+             <span>&copy合肥迅大信息技术有限公司</span><span> | </span><a href="">联系我们</a>
+         </div>
+
+
+     </div>
 </body>
 </html>

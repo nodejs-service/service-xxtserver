@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<View>
+  <DiagramVersion>2.5.5.1</DiagramVersion>
+  <DiagramViewType>iPhone</DiagramViewType>
+  <ProjectID>99beb6b2-d352-4c7b-8180-d8e58d8a1502</ProjectID>
+  <DisplayName>废旧资源站</DisplayName>
+  <StartupID></StartupID>
+  <ShowGrid>false</ShowGrid>
+  <ShowRuler>true</ShowRuler>
+  <GridBrush>#C400FFFF</GridBrush>
+  <DiagramBackground>#FFFFFFFF</DiagramBackground>
+  <Diagram>
+    <ShowGuides>true</ShowGuides>
+    <Zoom>1</Zoom>
+    <GuidesBrush>#C400FFFF</GuidesBrush>
+    <Layers>
+      <Layer>
+        <ID>bcf43cd6-f703-401a-ae9b-3d278ca8c073</ID>
+        <DisplayName>Layer0</DisplayName>
+        <IsActivated>true</IsActivated>
+        <IsHidden>false</IsHidden>
+        <IsLocked>false</IsLocked>
+        <Shapes />
+      </Layer>
+    </Layers>
+    <GuidesCollection />
+  </Diagram>
+</View>
